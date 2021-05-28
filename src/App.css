@@ -1,0 +1,50 @@
+body {
+  font-family: "poppins";
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+}
+.jumbotron {
+  background-color: #051733 !important;
+  border-radius: 0px !important;
+  top: 0;
+  font-size: 40px;
+  padding: 40px 0 0 0;
+  height: 100vh;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+
+.promoHeader.container {
+  margin: 0px;
+  padding: 0px;
+  background-color: #051733;
+  min-width: 100%;
+}
+
+.col-6{
+  padding: 0px;
+}
+
+.promo-join-btn {
+  background-color: #06b58c;
+  width: 295px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 37px;
+  color: white;
+}
+
+.placeholder-promo-img {
+  width: 610px;
+  height: 655px;
+  background-color: red !important;
+}
