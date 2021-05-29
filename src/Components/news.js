@@ -47,7 +47,7 @@ const NewsMedia = ({news}) => {
             padding: "0px",
           }}
         >
-          <img src="/assets/CTA.png" />
+          <img src="/assets/CTA.png" alt="cta"/>
         </Button>
       </Media>
     </Media>
@@ -66,12 +66,12 @@ class News extends Component {
     })
 
     return (
-      <>
-        <h2 style={{ marginTop: "60px", marginBottom: "25px" }}>Jeevam Health in News</h2>
+      <div className="custom-section news">
         <Container style={{ minWidth: "1250px" }}>
+          <h2>Jeevam Health in News</h2>      
           {newslist}
         </Container>
-      </>
+      </div>
     );
   }
 }

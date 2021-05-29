@@ -1,14 +1,13 @@
 import React, {Component } from "react";
-import {Navbar, NavbarBrand, Nav, NavItem, NavLink, Button, Container} from "reactstrap";
-import "./NavbarStyle.css";
+import {Navbar, NavbarBrand, Nav, NavItem, NavLink, Button} from "reactstrap";
 
 class Navbaar extends Component {
     render(){
         return(
             <div>
-            <Navbar className="bar" expand="md">
+                <Navbar className="bar" expand="md" fixed="top">
                     <NavbarBrand href="/" >
-                        <img  src="/assets/navicon.svg"/>
+                        <img  src="/assets/navicon.svg" alt="logo"/>
                     </NavbarBrand>
                     <Nav navbar>
                         <NavItem>
@@ -27,10 +26,10 @@ class Navbaar extends Component {
                             <NavLink href="#">Team</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#"><Button style={{backgroundColor:"#06B58C", marginTop:"-11px", width:"108px", height:"48px"}}>Join Now</Button></NavLink>
+                            <NavLink href="#"><Button className="btn btn-secondary nav-join-btn">Join Now</Button></NavLink>
                         </NavItem>     
                     </Nav>
-            </Navbar>
+                </Navbar>
             </div>
         );
     }
